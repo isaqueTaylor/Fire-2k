@@ -45,6 +45,7 @@ main{
  }
  .menbros ul{
      padding-left: 17px;
+     padding-bottom: 50px;
  }
  main.imagens{
      padding: 0;
@@ -61,6 +62,7 @@ main{
      padding-top: 15px;
      padding-bottom: 20px;
      font-family: Arial, Helvetica, sans-serif;   
+     padding-bottom: 30px;
  }
  section.img1{
      height: 270px;
