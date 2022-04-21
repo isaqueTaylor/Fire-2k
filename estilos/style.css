@@ -61,7 +61,7 @@ main{
 
 .imagens article{
     max-width: 100%;
-    height: 300px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -71,7 +71,11 @@ main{
     background-image: url('../imagens/isaque.jpg');
     height: 300px;
 }
-
+.imagens .desc{
+    background-color: rgb(5, 5, 5);
+    background-position: -50%, -50%;
+    color: white;
+}
 .imagens article:nth-of-type(4){
     background-image: url('../imagens/catarina.jpg');
     height: 300px;
@@ -95,4 +99,12 @@ main{
 .imagens article:nth-of-type(12){
     background-image: url('../imagens/dinho.jpg');
     height: 300px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
 }
