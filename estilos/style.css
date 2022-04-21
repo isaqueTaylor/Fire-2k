@@ -65,7 +65,7 @@ main{
     height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
 }
 .imagens article:nth-of-type(2){
