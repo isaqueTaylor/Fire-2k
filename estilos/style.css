@@ -1,0 +1,84 @@
+@charset "UTF8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+}
+header > img{
+    width: 100px;
+    padding-top: 15px;
+}
+header h1{
+    color: white;
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+main{
+    max-width: 100wh;
+    max-width: 100vh;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.clan  h1, h2{
+    padding: 20px 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clan p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+ .menbros h1{
+    padding: 20px 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .menbros ul > li{
+     list-style: disc;
+     line-height: 1.5em;
+     font-family: Arial, Helvetica, sans-serif;  
+ }
+ .menbros ul{
+     padding-left: 17px;
+ }
+ .vila h1{
+     padding-top: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 1.5em;
+ }
+ .vila p{
+     padding-top: 15px;
+     padding-bottom: 20px;
+     font-family: Arial, Helvetica, sans-serif;   
+ }
+
+ section.img1{
+     background-image: url('../imagens/isaque.jpg');
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-attachment: fixed;
+     height: 700px;
+     width: 100vw;
+ }
+ 
+ .vila p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+section.img2{
+    background-image: url('../imagens/niki.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100vw;
+}
+
+ 
