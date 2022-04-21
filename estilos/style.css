@@ -48,6 +48,7 @@ main{
  }
  main.imagens{
      padding: 0;
+     padding-bottom: 500px;
  }
  .vila h1{
      padding-left: 30px;
@@ -61,18 +62,20 @@ main{
      padding-bottom: 20px;
      font-family: Arial, Helvetica, sans-serif;   
  }
-
  section.img1{
      height: 270px;
      background-image: url('../imagens/isaque.jpg');
-     background-size: cover;
-     background-repeat: no-repeat; 
+     background-attachment: fixed;
+     background-size: 100%;
+     background-repeat: no-repeat;
+      
  }
  section.img2{
     height: 270px;
     background-image: url('../imagens/catarina.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
  
  
