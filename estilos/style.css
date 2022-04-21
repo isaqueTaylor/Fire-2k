@@ -47,52 +47,27 @@ main{
      padding-left: 17px;
      padding-bottom: 50px;
  }
- main.imagens{
-     padding: 0;
-     padding-bottom: 500px;
- }
- .vila h1{
-     padding-left: 30px;
-     padding-top: 30px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 1.5em;
- }
- .vila p{
-    padding-left: 30px;
-     padding-top: 15px;
+ section.imagens > h2{
      padding-bottom: 20px;
-     font-family: Arial, Helvetica, sans-serif;   
-     padding-bottom: 30px;
  }
- section.img1{
-     height: 270px;
-     background-image: url('../imagens/isaque.jpg');
-     background-attachment: fixed;
-     background-size: 100%;
-     background-repeat: no-repeat;
-      
- }
- section.img2{
-    height: 270px;
+section.imagens > div{
     background-image: url('../imagens/catarina.jpg');
-    background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
+    line-height: 50em;
+    background-attachment: fixed;
 }
-section.img3{
-    height: 270px;
+section.imagens > div.img1{
+    background-image: url('../imagens/isaque.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    line-height: 50em;
+    background-attachment: fixed;
+}
+section.imagens > div.img2{
     background-image: url('../imagens/niki.jpg');
-    background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
-}
-section.img4{
-    height: 270px;
-    background-image: url('../imagens/ricardo.jpg');
+    line-height: 50em;
     background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
- 
- 
- 
