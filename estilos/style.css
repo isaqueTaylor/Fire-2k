@@ -1,4 +1,5 @@
 @charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;1,500;1,600&display=swap');
 
 *{
     margin: 0;
@@ -16,7 +17,7 @@ header > img{
 header h1{
     color: white;
     padding-bottom: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 body{
     background-color: rgb(219, 219, 219);
@@ -30,7 +31,7 @@ main{
 }
 .clan  h1, h2{
     padding: 20px 0px 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 .clan p{
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +39,7 @@ main{
 }
  .menbros h1{
     padding: 20px 0px 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
  }
  .menbros ul > li{
      list-style: disc;
@@ -51,12 +52,12 @@ main{
  }
  
  .imagens h1{
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
      font-size: 1.5em;
  }
 
  .imagens h2{
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
      text-align: center;
  }
 
@@ -70,7 +71,7 @@ main{
 }
 .imagens h1{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 1.5em;
 }
 .imagens .desc{
