@@ -109,7 +109,10 @@ main{
 .imagens article:nth-of-type(12){
     background-image: url('../imagens/dinho.jpg');
     height: 400px;
-    padding-top: 40px;
+}
+.imagens #dinho{
+    padding-bottom: 40px;
+    background-color: rgba(224, 224, 190, 0.842);
 }
 
 footer{
