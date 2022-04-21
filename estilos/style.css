@@ -68,15 +68,23 @@ main{
     background-size: 100%;
     background-attachment: fixed;
 }
+.imagens h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+.imagens .desc{
+    background-color: rgba(224, 224, 190, 0.842);
+    background-position: -50%, -50%;
+    color: rgb(0, 0, 0);
+    padding: 10px 0 30px 0px;
+    font-weight: bolder;
+}
 .imagens article:nth-of-type(2){
     background-image: url('../imagens/isaque.jpg');
     height: 300px;
 }
-.imagens .desc{
-    background-color: rgb(228, 206, 206);
-    background-position: -50%, -50%;
-    color: white;
-}
+
 .imagens article:nth-of-type(4){
     background-image: url('../imagens/catarina.jpg');
     height: 400px;
@@ -100,6 +108,7 @@ main{
 .imagens article:nth-of-type(12){
     background-image: url('../imagens/dinho.jpg');
     height: 400px;
+    padding-top: 20px;
 }
 
 footer{
@@ -107,5 +116,11 @@ footer{
     color: white;
     padding: 10px;
     text-align: center;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: white;
     font-weight: bolder;
 }
