@@ -46,39 +46,33 @@ main{
  .menbros ul{
      padding-left: 17px;
  }
+ main.imagens{
+     padding: 0;
+ }
  .vila h1{
+     padding-left: 30px;
      padding-top: 30px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 1.5em;
  }
  .vila p{
+    padding-left: 30px;
      padding-top: 15px;
      padding-bottom: 20px;
      font-family: Arial, Helvetica, sans-serif;   
  }
 
  section.img1{
+     height: 270px;
      background-image: url('../imagens/isaque.jpg');
-     background-repeat: no-repeat;
-     background-size: 100%;
-     background-attachment: fixed;
-     height: 700px;
-     width: 100vw;
+     background-size: cover;
+     background-repeat: no-repeat; 
  }
+ section.img2{
+    height: 270px;
+    background-image: url('../imagens/catarina.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
  
- .vila p{
-    padding-top: 15px;
-    padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;   
-}
-
-section.img2{
-    background-image: url('../imagens/niki.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    height: 700px;
-    width: 100vw;
-}
-
  
