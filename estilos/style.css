@@ -50,6 +50,9 @@ main{
  section.imagens > h2{
      padding-bottom: 20px;
  }
+ .imagens div{
+     padding-top: 20px;
+ }
 section.imagens > div{
     background-image: url('../imagens/catarina.jpg');
     background-size: 100%;
