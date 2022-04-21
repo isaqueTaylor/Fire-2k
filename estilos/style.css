@@ -77,5 +77,20 @@ main{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+section.img3{
+    height: 270px;
+    background-image: url('../imagens/niki.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+section.img4{
+    height: 270px;
+    background-image: url('../imagens/ricardo.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ 
  
  
