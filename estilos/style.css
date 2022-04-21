@@ -65,16 +65,14 @@ main{
  section.img1{
      height: 270px;
      background-image: url('../imagens/isaque.jpg');
-     background-size: 570px;
+     background-size: cover;
      background-repeat: no-repeat; 
-     background-attachment: fixed;
  }
  section.img2{
     height: 270px;
     background-image: url('../imagens/catarina.jpg');
-    background-size: 570px;
+    background-size: cover;
     background-repeat: no-repeat; 
-    background-attachment: fixed;
 }
  
  
